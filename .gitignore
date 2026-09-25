@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+
+# Kestrel client data - NEVER COMMIT
+data/
+
+# Generated model artifacts
+models/
+
+# Generated outputs containing client-derived data
+outputs/
+
+# Supporting reports
+reports/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
